@@ -18,12 +18,6 @@ COMMON_PATH := device/lge/sm8150-common
 
 # inherit from common lge
 -include device/lge/common/BoardConfigCommon.mk
-WITH_GAPPS := true
-MAINTAINER := ncvinh
-AOSP_MAINTAINER := ncvinh
-PIXELPLUSUI_MAINTAINER := ncvinh
-TARGET_GAPPS_ARCH := arm64
-TZ := Asia/Ho_Chi_Minh
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
